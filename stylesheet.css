@@ -16,6 +16,8 @@ div{
 }
 
 .c1{
+	height: 46px;
+    width: 138px;
 	background-image: url(img/shock0.jpg); 
 }
 
@@ -28,6 +30,8 @@ div{
 }
 
 .c4{
+	height: 46px;
+    width: 386px;
 	background-image: url(img/shock0.jpg); 
 }
 
@@ -40,6 +44,8 @@ div{
 }
 
 .c7{
+	height: 46px;
+    width: 627px;
 	background-image: url(img/shock0.jpg); 
 }
 
@@ -71,6 +77,8 @@ div{
 	background-image: url(img/shock0.jpg);
 }
 .card1{
+	height: 46px;
+    width: 138px;
 	background-image: url(img/shock1.jpg); 
 }
 .card2{
