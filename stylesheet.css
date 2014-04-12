@@ -1,0 +1,90 @@
+body {
+  background-color:#ffffff;
+}
+div{        
+	overflow:hidden;
+	position: relative;
+}
+
+.view {
+	width:1920px;	height:1080px;
+}
+
+.card {
+	width: 388px;
+	height: 218px;
+}
+
+.c1{
+	background-image: url(img/c0.jpg); 
+}
+
+.c2{
+	background-image: url(img/shock0.jpg);
+}
+
+.c3{
+	background-image: url(img/shock0.jpg); 
+}
+
+.c4{
+	background-image: url(img/shock0.jpg); 
+}
+
+.c5{
+	background-image: url(img/shock0.jpg); 
+}
+
+.c6{
+	background-image: url(img/shock0.jpg); 
+}
+
+.c7{
+	background-image: url(img/shock0.jpg); 
+}
+
+.c8{
+	background-image: url(img/shock0.jpg);
+}
+
+.c9{
+	background-image: url(img/shock0.jpg); 
+}
+
+.c10{
+	background-image: url(img/shock0.jpg);
+}
+
+.c11{
+	background-image: url(img/shock0.jpg); 
+}
+
+.c12{
+	background-image: url(img/shock0.jpg); 
+}
+
+.back{
+	background-image: url(img/shock0.jpg);
+}
+
+.card0{
+	background-image: url(img/shock0.jpg);
+}
+.card1{
+	background-image: url(img/shock1.jpg); 
+}
+.card2{
+	background-image: url(img/shock2.jpg); 
+}
+.card3{
+	background-image: url(img/shock3.jpg); 
+}
+.card4{
+	background-image: url(img/shock4.jpg); 
+}
+.card5{
+	background-image: url(img/shock5.jpg); 
+}
+.card6{
+	background-image: url(img/shock6.jpg); 
+}
