@@ -15,81 +15,78 @@ div{
 	height: 218px;
 }
 
-.c1{
-	top:139px;
-	left:48px;
+#c1{
+
 	background-image: url(img/shock0.jpg); 
 }
 
-.c2{
+#c2{
 	background-image: url(img/shock0.jpg);
 }
 
-.c3{
+#c3{
 	background-image: url(img/shock0.jpg); 
 }
 
-.c4{
+#c4{
 	
 	background-image: url(img/shock0.jpg); 
 }
 
-.c5{
+#c5{
 	background-image: url(img/shock0.jpg); 
 }
 
-.c6{
+#c6{
 	background-image: url(img/shock0.jpg); 
 }
 
-.c7{
+#c7{
 
 	background-image: url(img/shock0.jpg); 
 }
 
-.c8{
+#c8{
 	background-image: url(img/shock0.jpg);
 }
 
-.c9{
+#c9{
 	background-image: url(img/shock0.jpg); 
 }
 
-.c10{
+#c10{
 	background-image: url(img/shock0.jpg);
 }
 
-.c11{
+#c11{
 	background-image: url(img/shock0.jpg); 
 }
 
-.c12{
+#c12{
 	background-image: url(img/shock0.jpg); 
 }
 
-.back{
-	background-image: url(img/shock0.jpg);
-}
 
-.card0{
+
+#card0{
 	background-image: url(img/shock0.jpg);
 }
-.card1{
+#card1{
 	
 	background-image: url(img/shock1.jpg); 
 }
-.card2{
+#card2{
 	background-image: url(img/shock2.jpg); 
 }
-.card3{
+#card3{
 	background-image: url(img/shock3.jpg); 
 }
-.card4{
+#card4{
 	background-image: url(img/shock4.jpg); 
 }
-.card5{
+#card5{
 	background-image: url(img/shock5.jpg); 
 }
-.card6{
+#card6{
 	background-image: url(img/shock6.jpg); 
 }
