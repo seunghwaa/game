@@ -2,8 +2,7 @@ body {
   background-color:#ffffff;
 }
 div{        
-	overflow:hidden;
-	position: relative;
+	position: absolute;
 }
 
 .view {
@@ -69,9 +68,7 @@ div{
 
 
 
-#card0{
-	background-image: url(img/shock0.jpg);
-}
+
 #card1{
 	
 	background-image: url(img/shock1.jpg); 
@@ -89,5 +86,25 @@ div{
 	background-image: url(img/shock5.jpg); 
 }
 #card6{
+	background-image: url(img/shock6.jpg); 
+}
+
+#card7{
+	
+	background-image: url(img/shock1.jpg); 
+}
+#card8{
+	background-image: url(img/shock2.jpg); 
+}
+#card9{
+	background-image: url(img/shock3.jpg); 
+}
+#card10{
+	background-image: url(img/shock4.jpg); 
+}
+#card11{
+	background-image: url(img/shock5.jpg); 
+}
+#card12{
 	background-image: url(img/shock6.jpg); 
 }
