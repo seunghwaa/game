@@ -22,7 +22,7 @@ $(document).ready(function(){
 	}
 
 	$('.c1').click(function(){
-		$(this).toggleClass('card1');
+		$(this).toggleClass("back");
 		savepoint[count] = 1;
 		savepoint2[count] = 1;
 		count +=1;
@@ -30,7 +30,7 @@ $(document).ready(function(){
 	});
 
 	$('.c2').click(function(){
-		$(this).toggleClass('card3');
+		$(this).toggleClass("back");
 		savepoint[count] = 3;
 		savepoint2[count] = 2;
 		count +=1;
@@ -38,7 +38,7 @@ $(document).ready(function(){
 	});
 
 	$('.c3').click(function(){
-		$(this).toggleClass('card2');
+		$(this).toggleClass("back");
 		savepoint[count] = 1;
 		savepoint2[count] = 3;
 		count +=1;
@@ -46,7 +46,7 @@ $(document).ready(function(){
 	});
 
 	$('.c4').click(function(){
-		$(this).toggleClass('card5');
+		$(this).toggleClass("back");
 		savepoint[count] = 4;
 		savepoint2[count] = 4;
 		count +=1;
@@ -54,7 +54,7 @@ $(document).ready(function(){
 	});
 
 	$('.c5').click(function(){
-		$(this).toggleClass('card4');
+		$(this).toggleClass("back");
 		savepoint[count] = 4;
 		savepoint2[count] = 5;
 		count +=1;
@@ -62,7 +62,7 @@ $(document).ready(function(){
 	});
 
 	$('.c6').click(function(){
-		$(this).toggleClass('card6');
+		$(this).toggleClass("back");
 		savepoint[count] = 6;
 		savepoint2[count] = 6;
 		count +=1;
@@ -70,7 +70,7 @@ $(document).ready(function(){
 	});
 
 	$('.c7').click(function(){
-		$(this).toggleClass('card3');
+		$(this).toggleClass("back");
 		savepoint[count] = 5;
 		savepoint2[count] = 7;
 		count +=1;
@@ -78,7 +78,7 @@ $(document).ready(function(){
 	});
 
 	$('.c8').click(function(){
-		$(this).toggleClass('card1');
+		$(this).toggleClass("back");
 		savepoint[count] = 2;
 		savepoint2[count] = 8;
 		count +=1;
@@ -86,7 +86,7 @@ $(document).ready(function(){
 	});
 
 	$('.c9').click(function(){
-		$(this).toggleClass('card4');
+		$(this).toggleClass("back");
 		savepoint[count] = 2;
 		savepoint2[count] = 9;
 		count +=1;
@@ -94,7 +94,7 @@ $(document).ready(function(){
 	});
 
 	$('.c10').click(function(){
-		$(this).toggleClass('card2');
+		$(this).toggleClass("back");
 		savepoint[count] = 3;
 		savepoint2[count] = 10;
 		count +=1;
@@ -102,7 +102,7 @@ $(document).ready(function(){
 	});
 
 	$('.c11').click(function(){
-		$(this).toggleClass('card5');
+		$(this).toggleClass("back");
 		savepoint[count] = 6;
 		savepoint2[count] = 11;
 		count +=1;
@@ -110,11 +110,14 @@ $(document).ready(function(){
 	});
 
 	$('.c12').click(function(){
-		$(this).toggleClass('card6');
-		savepoint[count] = 5;
-		savepoint2[count] = 12;
-		count +=1;
-		Y();
+		$(this).toggleClass("back");
+	
 	});
+	
 
 });
+
+
+
+
+
