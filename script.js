@@ -1,123 +1,54 @@
-var count = 0;
-var check = 0;
-var savepoint = [0, 0];
-var savepoint2 = [0, 0];
-var checkpoint = 0;
- 
-$(document).ready(function(){ 
-	var Y = function(){
+$(document).ready(function() {
+  $('#c1').click(function(){
+    $(this).toggleClass('backF');
+  });
 
-		if(count == 2){
-			count=0;
-			
-			if(savepoint[0] == savepoint[1]){
-				checkpoint++;
-			}
-			else{
-				alert("틀렸다")
-				$('.c'+savepoint2[0]).toggleClass('k'+savepoint[0]);
-				$('.c'+savepoint2[1]).toggleClass('k'+savepoint[1]);
-			}		
-		}
-	}
-
-	$('.c1').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 1;
-		savepoint2[count] = 1;
-		count +=1;
-		Y();
-	});
-
-	$('.c2').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 3;
-		savepoint2[count] = 2;
-		count +=1;
-		Y();
-	});
-
-	$('.c3').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 1;
-		savepoint2[count] = 3;
-		count +=1;
-		Y();
-	});
-
-	$('.c4').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 4;
-		savepoint2[count] = 4;
-		count +=1;
-		Y();
-	});
-
-	$('.c5').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 4;
-		savepoint2[count] = 5;
-		count +=1;
-		Y();
-	});
-
-	$('.c6').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 6;
-		savepoint2[count] = 6;
-		count +=1;
-		Y();
-	});
-
-	$('.c7').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 5;
-		savepoint2[count] = 7;
-		count +=1;
-		Y();
-	});
-
-	$('.c8').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 2;
-		savepoint2[count] = 8;
-		count +=1;
-		Y();
-	});
-
-	$('.c9').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 2;
-		savepoint2[count] = 9;
-		count +=1;
-		Y();
-	});
-
-	$('.c10').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 3;
-		savepoint2[count] = 10;
-		count +=1;
-		Y();
-	});
-
-	$('.c11').click(function(){
-		$(this).toggleClass("back");
-		savepoint[count] = 6;
-		savepoint2[count] = 11;
-		count +=1;
-		Y();
-	});
-
-	$('.c12').click(function(){
-		$(this).toggleClass("back");
-	
-	});
-	
-
+  $('#c2').click(function(){
+    $(this).toggleClass('backE');
+  });
+  
+$('#c3').click(function(){
+    $(this).toggleClass('backA');
+  }); 
+  
+$('#c4').click(function(){
+    $(this).toggleClass('backF');
+  });  
+  
+$('#c5').click(function(){
+    $(this).toggleClass('backE');
+  });
+  
+$('#c6').click(function(){
+    $(this).toggleClass('backA');
+  });
+  
+$('#c7').click(function(){
+    $(this).toggleClass('backB');
+  });
+  
+$('#c8').click(function(){
+    $(this).toggleClass('backD');
+  });
+  
+$('#c9').click(function(){
+    $(this).toggleClass('backB');
+  });  
+  
+$('#c10').click(function(){
+    $(this).toggleClass('backC');
+  });  
+  
+$('#c11').click(function(){
+    $(this).toggleClass('backD');
+  });  
+  
+$('#c12').click(function(){
+    $(this).toggleClass('backC');
+  });    
 });
 
-
+  
 
 
 

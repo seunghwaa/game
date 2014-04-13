@@ -1,12 +1,7 @@
-body {
-  background-color:#ffffff;
-}
-div{        
-	position: absolute;
-}
 
-.view {
-	width:1920px;	height:1080px;
+div{
+  overflow:hidden;
+  position:relative;
 }
 
 .card {
@@ -15,79 +10,86 @@ div{
 }
 
 
-
 #c1{
-	top:31px;
-	left:45px;
-	background-image: url(img/shock1.jpg); 
+	
+	background-image: url(img/shock0.jpg); 
 }
 
 #c2{
-	top:31px;
-	left:470px;
-	background-image: url(img/shock6.jpg);
+	
+	background-image: url(img/shock0.jpg);
 }
 
 #c3{
-	top:31px;
-	left:900px;
-	background-image: url(img/shock6.jpg); 
+	
+	background-image: url(img/shock0.jpg); 
 }
 
 #c4{
-	top:31px;
-	left:1327px;
-	background-image: url(img/shock4.jpg); 
+	
+	background-image: url(img/shock0.jpg); 
 }
 
 #c5{
-	top:249px;
-	left:47px;
-	background-image: url(img/shock5.jpg); 
+	
+	background-image: url(img/shock0.jpg); 
 }
  
 #c6{
-	top:249px;
-	left:470px;
-	background-image: url(img/shock4.jpg); 
+	
+	background-image: url(img/shock0.jpg); 
 }
 
 #c7{
-	top:249px;
-	left:899px;
-	background-image: url(img/shock3.jpg); 
+	
+	background-image: url(img/shock0.jpg); 
 }
 
 #c8{
-	top:249px;
-	left:1327px;
-	background-image: url(img/shock1.jpg);
+	
+	background-image: url(img/shock0.jpg);
 }
 
 #c9{
-	top:468px;
-	left:45px; 
-	background-image: url(img/shock5.jpg); 
+
+	background-image: url(img/shock0.jpg); 
 }
 
 #c10{
-	top:468px;
-	left:472px; 
-	background-image: url(img/shock2.jpg);
+
+	background-image: url(img/shock0.jpg);
 }
 
 #c11{
-	top:468px;
-	left:898px;
-	background-image: url(img/shock3.jpg); 
+
+	background-image: url(img/shock0.jpg); 
 }
 
 #c12{
-	top:468px;
-	left:1327px;
-	background-image: url(img/shock2.jpg); 
+	
+	background-image: url(img/shock0.jpg); 
 }
 
-.back { background-image:url("img/shock0.jpg"); }
+.backA{
+  background-image: url('img/shock1.jpg');
+}
+.backB{
+  background-image: url('img/shock2.jpg');
+}
+.backC{
+  background-image: url('img/shock3.jpg');
+}
+.backD{
+  background-image: url('img/shock4.jpg');
+}
+.backE{
+  background-image: url('img/shock5.jpg');
+}
+.backF{
+  background-image: url('img/shock6.jpg');
+}
+
+
+
 
 
