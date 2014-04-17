@@ -1,7 +1,15 @@
-$(document).ready(function() {
-  $('#c1').click(function(){
-    $(this).toggleClass('backF');
-  });
+$(document).ready(function(){
+	$('#c1').click(function(){
+		$(this).toggleClass('backF');
+	});
+
+
+
+
+//$(document).ready(function() {
+  //$('#c1').click(function(){
+    //$(this).toggleClass('backF');
+  //});
 
   $('#c2').click(function(){
     $(this).toggleClass('backE');
