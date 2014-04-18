@@ -1,4 +1,3 @@
-
 div{
   overflow:hidden;
   position:relative;
@@ -7,13 +6,10 @@ div{
 .card {
 	width: 388px;
 	height: 218px;
+	background-image: url(img/shock0.jpg);
 }
 
 
-#c1{
-	
-	background-image: url(img/shock0.jpg); 
-}
 
 #c2{
 	
